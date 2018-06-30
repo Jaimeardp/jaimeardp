@@ -1,0 +1,421 @@
+body, html, .main-intro{
+	height: 100%;
+	margin:0; 
+}
+
+aside{
+	vertical-align: baseline;
+	display: block;
+	margin: 0;
+}
+
+figure{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+nav{
+	display: block;
+}
+
+section{
+	display: block;
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+h1{
+	padding: 0;
+	margin: 0;
+}
+
+.main-intro{
+	background: url('http://heckhouse.com/content/themes/hh/assets/temp/image-1.jpg') no-repeat center center fixed;;
+	background-size: cover;
+    margin:0;
+    padding: 0;
+    position: relative;
+    max-width: 1800px;
+    border:0;
+}
+
+.primary-navigation{
+	bottom: 0;
+    padding: 35px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.primary-navigation.fixed {
+    background: rgba(255,255,255,.95);
+    bottom: auto;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+
+.main-intro .primary-navigation {
+	left: 0;
+	width: 100%
+}
+
+.main-intro .primary-navigation .links{
+	float: right;
+}
+
+.primary-navigation .links li a{
+	color: #fff;
+	
+}
+
+.primary-navigation .links li{
+	letter-spacing: .15em;
+	margin-left: 35px;
+	
+}
+
+.primary-navigation.fixed .links li a{
+	color: #33384A;
+	
+}
+
+.primary-navigation.fixed .links{
+	
+}
+
+/*li{
+	display: inline;
+}*/
+
+.links li{
+	display: inline;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.v-center{
+	position: relative;
+	top: 10%;
+}
+
+.main-intro .logo {
+    display: block;
+    height: auto;
+    margin:auto;
+    max-width: 730px;
+    width: 100%;
+}
+
+.menu{
+	height: 100%;
+	/*background:url('fondo.svg');*/
+	background-color: black;
+	/*#CBD5D4*/
+
+}
+
+.fondo-py{
+	margin-left: 50px;
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+.fondo-py:hover{
+
+	background: url('../img/computer-on.svg'); 
+}
+
+.fondo-node{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+}
+
+.fondo-node:hover{
+	background: url('../img/computer-node.svg'); 
+}
+
+.fondo-django{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+}
+
+.fondo-django:hover{
+	background: url('../img/computer-django.svg'); 
+}
+
+.fondo-js{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-js:hover{
+	background: url('../img/computer-js.svg'); 
+}
+
+
+.fondo-ang{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-ang:hover{
+	background: url('../img/computer-ang.svg'); 
+}
+
+.fondo-boot{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+}
+
+.fondo-boot:hover{
+	background: url('../img/computer-boot.svg'); 
+}
+
+.fondo-sql{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-sql:hover{
+	background: url('../img/computer-sql.svg'); 
+}
+
+.fondo-nosql{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+	margin-left: 50px;
+
+}
+
+.fondo-nosql:hover{
+	background: url('../img/computer-nosql.svg'); 
+}
+
+.fondo-cplusplus{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+}
+
+.fondo-cplusplus:hover{
+	background: url('../img/computer-cplusplus.svg'); 
+}
+
+
+.fondo-react{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-react:hover{
+	background: url('../img/computer-react.svg'); 
+}
+
+
+.fondo-java{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-java:hover{
+	background: url('../img/computer-java.svg'); 
+}
+
+.fondo-ts{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-ts:hover{
+	background: url('../img/computer-ts.svg'); 
+}
+
+.fondo-react{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-react:hover{
+	background: url('../img/computer-react.svg'); 
+}
+
+.fondo-spring{
+	height: 200px;
+	width: 200px;
+	background: url('../img/computer.svg');
+	transition: background 5s;
+	display: inline-block;
+
+}
+
+.fondo-spring:hover{
+	background: url('../img/computer-spring.svg'); 
+}
+
+.avion{
+	display: inline-block;
+	position: relative;
+	/*width: 300px;
+	height: 300px;*/
+	width: 150px;
+	height: 150px;
+	background: url('../img/avion.svg');
+	/*border-image-source: url('foco-off.svg');
+	border-image-slice: 10%;*/
+	transition: background 5s;
+
+}
+
+.foco{
+	display: inline-block;
+	position: relative;
+	/*width: 300px;
+	height: 300px;*/
+	width: 150px;
+	height: 150px;
+	background: url('../img/bomb.svg');
+	/*border-image-source: url('foco-off.svg');
+	border-image-slice: 10%;*/
+	transition: background 5s;
+}
+
+.limit{
+	background-size: auto; 
+}
+
+.foco:hover{
+	background: url('../img/bum.svg');
+	
+}
+
+.show{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+.f{
+	visibility: hidden;
+}
+
+.igrid{
+  display: grid;
+  grid: 90px / auto;
+  grid-gap: 0px;
+  padding: 0px;
+  font-size: 30px;
+  margin: auto;
+}
+
+.igrid>div{
+	text-align: center;
+	font-size: 30px;
+	grid-gap: 10px;
+}
+
+.cara:hover{
+	transform: translateX(400px);
+}
+
+.text-hide{
+        /*position:absolute;
+        z-index: -2;
+        height: 50%;
+        right:0;
+        margin-top: 100px;
+        padding-right:1000px;*/
+        position:absolute;
+        z-index: -1;
+        display:block;
+        height: 50%;
+        right:0;
+        margin-top: 200px;
+        padding-right:540px;
+}
+
+#vida{
+	height: 100%;
+}
+
+.contact{
+	height: 100%;
+	display: block;
+}
+
+.footer{
+	margin-top: 180px;
+}
+
+.avion{
+	/*transition: transform 2s;*/
+}
+
+/*
+.avion:hover{
+	transform: translateY(-300px);
+}*/
+
+
+
+
+
+
